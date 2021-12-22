@@ -1,0 +1,3 @@
+<view class="index_wrap" style='color: {{color}};background-color: {{colorb}};text-align: center;'>
+   <view class="index_story_text"><text>{{text}}</text></view>
+</view>

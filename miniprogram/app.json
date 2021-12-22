@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/work/work",
+    "pages/temp/temp",
+    "pages/talk/talk",
+    "pages/biaobai/biaobai",
+    "pages/mine/mine",
+    "pages/lost/lost",
+    "pages/xianzhi/xianzhi",
+    "pages/love/love",
+    "pages/weather/weather",
+    "pages/send/send"
+  ],
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine1.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#00a8f3",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的男朋友问你要位置信息" 
+    }
+  }
+}

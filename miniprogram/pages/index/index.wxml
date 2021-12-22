@@ -1,0 +1,64 @@
+<view class="all">
+  <swiper autoplay="true" interval="10000">
+    <swiper-item>
+      <image src="../../images/pp.gif"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src="../../images/p3.gif"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src="../../images/1.gif" style="width: 80%;padding-left: 8%;"></image>
+    </swiper-item>
+  </swiper>
+  <view class="line">
+    <view class="box" bindtap="biaobai">
+      <image src="../../images/biaobai.png"></image>
+      <view>心情记录</view>
+    </view>
+    <view class="box" bindtap="xianzhi">
+      <image src="../../images/zhao.png"></image>
+      <view>图文记录</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="box" bindtap="work">
+      <image src="../../images/time.png"></image>
+      <view>重要时间</view>
+    </view>
+    <view class="box" bindtap="lost">
+    <!-- bindtap="lost" -->
+      <image src="../../images/li.png"></image>
+      <view>里程日历</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="box">
+      <!-- bindtap="talk" -->
+      <image src="../../images/gao.png"></image>
+      <!-- <view>我的告白</view> -->
+    </view>
+
+    <view class="box" >
+      <!-- bindtap="love" -->
+      <image src="../../images/ai.png"></image>
+      <!-- <view>爱心发射</view> -->
+    </view>
+  </view>
+  <view class="line">
+    <view class="box"  bindtap="weather">
+      <!-- bindtap="weather" -->
+      <image src="../../images/weather_icon/409.png"></image>
+     <view>定制天气</view> 
+    </view>
+    <view class="box">
+      <!-- bindtap="weather" -->
+      <image src="../../images/icon1.png"></image>
+      <!-- <view>位置信息 </view> -->
+    </view>
+  </view>
+  <view class="line">
+
+  </view>
+</view>

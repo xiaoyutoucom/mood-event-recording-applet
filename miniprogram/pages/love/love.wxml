@@ -1,0 +1,14 @@
+<view >
+  
+   <swiper autoplay="true" interval="10000">
+    <swiper-item>
+      <image src="../../images/xin.gif" style="height: 8rem;"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/1.gif" style="width: 80%;padding-left: 8%;"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/心2.gif" style="height: 8rem;"></image>
+    </swiper-item>
+  </swiper>
+</view>

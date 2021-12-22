@@ -1,0 +1,75 @@
+page {
+  background-color: #e6e3e3;
+}
+
+.info {
+  background-color: #00a8f3;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.info button{
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #00a8f3
+}
+.name{
+  height: 70rpx;
+  line-height: 80rpx
+}
+.touxiang {
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.touxiang image{
+  width: 160rpx;
+  height: 160rpx
+}
+
+.liebiao {
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  padding: 10rpx;
+  border-bottom: 5rpx solid #e6e3e3;
+  justify-content: space-between;
+}
+
+.box1 {
+  background-color: #e0f5ff;
+  display: flex;
+  flex-direction: row;
+  text-indent: 60rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 10rpx;
+  justify-content: space-between;
+}
+
+.box1 text {
+  margin: 0 60rpx;
+  font-size: 25rpx;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+image {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 10rpx 0 50rpx;
+}

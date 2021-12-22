@@ -1,0 +1,72 @@
+._left {
+  position: relative; 
+
+  background-color: #FCF2D7;
+  color: #9F7F43;
+  border: 2rpx solid #FFC11B;
+ }
+
+._left:before{ 
+content: '';
+display: inline-block;
+position: absolute;
+right: 0;
+top: 0;
+width: 0;
+height: 0;
+border-top: 28px solid #FBCF6B; 
+border-left: 28px solid transparent; 
+
+} 
+._left:after{ 
+  content: '';
+  position: absolute;
+  right: 1px;
+  top: 5px;
+  width: 8px;
+  height: 4px;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-width: 0 0 1px 1px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  vertical-align: baseline; 
+} 
+.line {
+  width: 90vw;
+  border: 1rpx grey solid;
+  position: relative;
+  margin: 10rpx 0;
+  left: -5vw
+}
+
+.box {
+  border-radius: 20rpx;
+  background: white;
+  margin: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx 5vw;
+  width: 80vw;
+  line-height: 60rpx;
+  box-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 40rpx;
+}
+
+.location {
+  color: grey;
+}
+
+.price {
+  color: red;
+  text-align: right;
+  font-weight: bolder;
+  line-height: 25rpx
+}

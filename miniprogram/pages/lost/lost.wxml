@@ -1,0 +1,46 @@
+<view class="flow-item" style="background-color: rgb(32, 80, 92);">
+        <view class="timeline-circle2"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name2">2021-04-05 08:27:10</view>
+            <view class="timeline-content">初识</view>
+            <view class="timeline-blank">初识钟情终于白首 眉眼如初岁月如故</view>
+        </view>
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name2">2021-10-13 10:29:00</view>
+            <view class="timeline-content">初见</view>
+            <view class="timeline-blank">幸得识卿桃花面 自此阡陌多暖春</view>
+        </view>
+        <!-- 固定底部样式 -->
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name2">2021-10-14 8:00:00</view>
+            <view class="timeline-content">在一起</view>
+            <view class="timeline-blank">只愿君心似我心 定不负相思意</view>
+        </view>
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name2">2021-10-14 9:00:00</view>
+            <view class="timeline-content">离别</view>
+            <view class="timeline-blank">执手相看泪眼 竟无语凝噎</view>
+        </view>
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name" style="color: rgb(185, 230, 150);">未来可期</view>
+            <view class="timeline-content">重逢</view>
+            <view class="timeline-blank">从别后 盼相逢 几回魂梦与君同</view>
+        </view>
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name" style="color: wheat;">未来可期</view>
+            <view class="timeline-content">结束异地</view>
+            <view class="timeline-blank">在天愿作比翼鸟 在地愿为连理枝</view>
+        </view>
+        <view class="timeline-circle"></view>
+        <view class="timeline-item2">
+            <view class="timeline-name">未完待续</view>
+            <view class="timeline-content">未完待续</view>
+            <view class="timeline-blank">死生契阔 与子成说 执子之手 与子偕老</view>
+        </view>
+        <view class="timeline-circle2"></view>
+    </view>

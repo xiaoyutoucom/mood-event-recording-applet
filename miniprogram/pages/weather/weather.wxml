@@ -1,0 +1,45 @@
+<!--pages/index/index.wxml-->
+<view>
+  <!--区域1：地区选择器-->
+  <picker mode='region' bindchange='regionChange' style="color: rgb(207, 66, 30);">
+    <view class="region"> {{region}}（点击可切换）</view>
+  </picker>
+  <view class='bar' style="color: rgb(250, 248, 243);">
+      <view class='box' style="background-color:#c1e779;margin: 3px;" bindtap='Changelc'>聊城</view>
+      <view class='box' style="background-color:#b5e064;margin: 3px;" bindtap='Changekm'>昆明</view>
+      <view class='box' style="background-color: #a0d440;margin: 3px;" bindtap='Changejn'>济南</view>
+      <view class='box' style="background-color: #9ed634;margin: 3px;"bindtap='Changenj'>怒江</view>
+    </view>
+  <!-- <text>{{city}} </text> -->
+  <!--区域2：单行天气信息-->
+  <view style="text-align: center;color: rgb(13, 185, 128);font-size: 2rem;">{{city}}</view>
+  <text style="padding-left: 20%;padding-top: 20%;">{{now.tmp}}°C {{now.cond_txt}}</text>
+
+  <!--区域3：天气图标-->
+  <image src='/images/weather_icon/{{now.cond_code}}.png' mode='widthFix'></image>
+
+  <!--区域4：多行天气信息-->
+  <view class='detail'>
+
+    <view class='bar'>
+      <view class='box'>湿度</view>
+      <view class='box'>气压</view>
+      <view class='box'>能见度</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>{{now.hum}} %</view>
+      <view class='box'>{{now.pres}} hPa</view>
+      <view class='box'>{{now.vis}} km</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>风向</view>
+      <view class='box'>风速</view>
+      <view class='box'>风力</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>{{now.wind_dir}}</view>
+      <view class='box'>{{now.wind_spd}} km/h</view>
+      <view class='box'>{{now.wind_sc}} 级</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+/* pages/index/index.wxss */
+/* 定位样式 */
+.region{
+  position: relative;
+  top: 10px;
+}
+/*文本样式*/
+text{
+  font-size: 80rpx;
+  color:#2a6cad;
+  position: relative;
+  top: -15px;
+}
+
+/*图标样式*/
+image{
+  width: 220rpx;
+  position: relative;
+  top: 30px;
+}
+
+/*区域4整体样式*/
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+}
+/*区域4单元行样式*/
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+/*区域4单元格样式*/
+.box{
+  width: 33.3%;
+  text-align: center;
+}

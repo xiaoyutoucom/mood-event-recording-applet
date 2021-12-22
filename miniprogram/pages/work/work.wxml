@@ -1,0 +1,104 @@
+<view class="all" style="text-align: center">
+  <view class="box" hover-class='_left'  style="background-color: rgb(41, 85, 228);color: wheat;text-align: center;">
+    <view class="box_bottom" >
+        <view class="writer" style="color: rgb(248, 252, 7);">
+          <text>★★★★★★★★★★</text>
+        </view>
+      </view>
+      <view class="info" bindtap="nowdate">
+        <text style="color:rgb(240, 240, 238);font-size:15px"> 现在是北京时间:</text>
+        <view class="box_bottom" >
+        <view class="writer">
+          <text>{{nowdate}}</text>
+        </view>
+      </view>
+      </view>
+    </view>
+    <view class="box" hover-class='_left' bindtap="nowdate1"  style="background-color: rgb(79, 209, 79);color: wheat;">
+      <view class="box_bottom" >
+        <view class="writer" style="color: rgb(148, 72, 58);">
+          <text>{{meett}}</text>
+        </view>
+      </view>
+      <view class="info">
+        <text style="color:rgb(240, 238, 238);font-size:15px"> 我们相识</text>
+      </view>
+      <view class="box_bottom" >
+        <view class="writer">
+          <text>{{meet}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="box" hover-class='_left'bindtap="nowdate2"  style="background-color: rgb(89, 201, 89);color: wheat;">
+      <view class="box_bottom" >
+        <view class="writer" style="color: rgb(148, 72, 58);">
+          <text>{{lovet}}</text>
+        </view>
+      </view>
+      <view class="info">
+        <text style="color:rgb(240, 238, 238);font-size:15px">我们已经在一起</text>
+      </view>
+
+      <view class="box_bottom" >
+        <view class="writer">
+          <text>{{love}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="box" hover-class='_left'  bindtap="nowdate3" style="background-color: rgb(89, 189, 89);color: wheat;text-align: center;">
+      <view class="box_bottom" >
+        <view class="writer" style="color: rgb(148, 72, 58);">
+          <text>❥❥❥❥❥❥❥❥❥❥❥❥❥</text>
+        </view>
+      </view>
+      <view class="info">
+        <text style="color:rgb(240, 238, 238);font-size:15px">未完待续</text>
+      </view>
+
+      <view class="box_bottom" >
+        <view class="writer"style="color: rgb(199, 81, 61);">
+          <text>❥❥❥❥❥❥❥❥❥❥❥❥❥</text>
+        </view>
+      </view>
+    </view>
+    <view class="box" hover-class='_left'  bindtap="nowdate4" style="background-color: rgb(192, 102, 42);color: wheat;">
+      <view class="box_bottom" >
+        <view class="writer" style="color: rgb(190, 51, 26);">
+          <text>❤❤❤❤❤❤❤❤❤❤</text>
+        </view>
+      </view>
+      <view class="info">
+        <text style="color:rgb(240, 238, 238);font-size:15px">距离你的生日</text>
+      </view>
+
+      <view class="box_bottom" >
+        <view class="writer">
+          <text>{{bb}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="box" hover-class='_left' bindtap="nowdate5" style="background-color: rgb(240, 212, 221);">
+      <!-- <view class="box_bottom">
+        <view>
+          <text class="title">To:</text>{{item.to}}
+        </view>
+      </view> -->
+      <view class="info">
+      <view>距离 <text>{{kaoyan_year}}</text>年 考研还有 <text style="color: tomato;">{{kaoyan_days}}</text> 天</view>
+      <!-- <view>距离 <text>{{gk_year}}</text>年 高考还有 <text style="color: tomato;">{{gk_days}}</text> 天</view> -->
+      <view>距离 <text>{{gq_year}}</text>年 国庆还有 <text style="color: tomato;">{{gq_days}}</text> 天</view>
+      <view>距离 <text>{{yd_year}}</text>年 元旦还有 <text style="color: tomato;">{{yd_days}}</text> 天</view>
+      <view>距离 <text>{{sd_year}}</text>年 圣诞还有 <text style="color: tomato;">{{sd_days}}</text> 天</view>
+      </view>
+      <!-- <view class="writer">
+        <text class="title">From:</text>{{item.writer}}
+      </view> -->
+      <view class="box_bottom" >
+        <view class="writer">
+          <text style="color:grey;font-size:20rpx">未完待续</text>
+        </view>
+      </view>
+    
+    </view>
+       
+</view>
